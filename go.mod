@@ -344,7 +344,7 @@ replace (
 	github.com/prometheus/client_golang => github.com/prometheus/client_golang v1.18.0
 	// Required by github.com/credativ/vali
 	github.com/prometheus/common => github.com/prometheus/common v0.20.0
-	google.golang.org/grpc => google.golang.org/grpc v1.45.0
+	google.golang.org/grpc => google.golang.org/grpc v1.29.1
 	// Required by github.com/gardener/gardener
 	k8s.io/api => k8s.io/api v0.31.5
 	k8s.io/apiextensions-apiserver => k8s.io/apiextensions-apiserver v0.31.5
@@ -353,3 +353,7 @@ replace (
 	k8s.io/client-go => k8s.io/client-go v0.31.5
 	k8s.io/component-base => k8s.io/component-base v0.31.5
 )
+
+replace github.com/credativ/vali => github.com/afritzler/vali v0.0.0-20250424122943-35fbce152f78
+
+replace github.com/cortexproject/cortex => github.com/afritzler/cortex v0.0.0-20250424122538-616c0b80d90d
