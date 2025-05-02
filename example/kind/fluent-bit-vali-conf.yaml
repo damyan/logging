@@ -7,7 +7,7 @@ data:
   fluent-bit.conf: |
     [Service]
         Daemon        false
-        Http_Listen   0.0.0.0
+        Http_Listen   [::]
         Http_Port     2020
         Http_Server   true
         Log_Level     info

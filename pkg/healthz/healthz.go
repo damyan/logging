@@ -16,7 +16,7 @@ import (
 // Handler returns http.Handler
 func Handler(flbListeningIP, port string) http.Handler {
 	if flbListeningIP == "" {
-		flbListeningIP = "127.0.0.1"
+		flbListeningIP = "::1"
 	}
 	if port == "" {
 		port = "2020"
